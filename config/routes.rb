@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
- root 'motors#index'
- resources :motors
+ root 'motor#index'
+ resources :motor
 end
